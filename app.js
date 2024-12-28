@@ -34,15 +34,15 @@ var percentage = (obtain / total) * 100;
 percentage = Math.round(percentage); // Corrected Math.round()
 
 if (percentage <= 50) {
-    alert(percentage + "% " + "You Suck");
+    alert("You got "+obtain +" Marks."+" and "+percentage + "% " +"is Your Percentage, "+ "You Suck");
 } else if (percentage <= 60) {
-    alert(percentage + "% " + "You can do Better");
+    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+"You can do Better");
 } else if (percentage <= 70) {
-    alert(percentage + "% " + "Not Bad");
+    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+ "Not Bad");
 } else if (percentage <= 80) {
-    alert(percentage + "% " + "Great Job");
+    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+"Great Job");
 } else if (percentage <= 100) { 
-    alert(percentage + "% " + "Never Doubted You");
+    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+"Never Doubted You");
 } else {
-    alert("Invalid percentage value. Please check the input.");
+    alert("Error. Please check the input.");
 }
