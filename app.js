@@ -34,15 +34,15 @@ var percentage = (obtain / total) * 100;
 percentage = Math.round(percentage); // Corrected Math.round()
 
 if (percentage <= 50) {
-    alert("You got "+obtain +" Marks."+" and "+percentage + "% " +"is Your Percentage, "+ "You Suck");
+    alert('Total Number = '+ total +'\nObtained Number = '+obtain+'\nYour Percentage = '+percentage+'%'+'\nResult = ' +'Failed')
 } else if (percentage <= 60) {
-    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+"You can do Better");
+    alert('Total Number = '+ total +'\nObtained Number = '+obtain+'\nYour Percentage = '+percentage+'%'+'\nResult = ' +'Pass')
 } else if (percentage <= 70) {
-    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+ "Not Bad");
+    alert('Total Number = '+ total +'\nObtained Number = '+obtain+'\nYour Percentage = '+percentage+'%'+'\nResult = ' +'Pass')
 } else if (percentage <= 80) {
-    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+"Great Job");
+    alert('Total Number = '+ total +'\nObtained Number = '+obtain+'\nYour Percentage = '+percentage+'%'+'\nResult = ' +'Pass')
 } else if (percentage <= 100) { 
-    alert("You got "+obtain +" Marks."+" and  "+percentage + "% " +"is Your Percentage, "+"Never Doubted You");
+    alert('Total Number = '+ total +'\nObtained Number = '+obtain+'\nYour Percentage = '+percentage+'%'+'\nResult = ' +'Pass')
 } else {
     alert("Error. Please check the input.");
 }
